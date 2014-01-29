@@ -88,14 +88,14 @@
                   <fileset file="${project.build.directory}/docbkx/pdf/public-book.pdf" />
                 </copy>
               </postProcess>
-              <bodyFontFamily>SimSun</bodyFontFamily>
+              <bodyFontFamily>WenQuanYi Micro Hei</bodyFontFamily>
               <fonts>
                 <font>
-                  <name>SimSun</name>
+                  <name>WenQuanYi Micro Hei</name>
                   <style>normal</style>
                   <weight>normal</weight>
-                  <embedFile>${basedir}/target/classes/fonts/simsun.ttc</embedFile>
-                  <metricsFile>${basedir}/target/classes/fonts/simsun.xml</metricsFile>
+                  <embedFile>${basedir}/target/classes/fonts/wqy-microhei.ttc</embedFile>
+                  <metricsFile>${basedir}/target/classes/fonts/wqy-microhei.xml</metricsFile>
                 </font>
               </fonts>
             </configuration>

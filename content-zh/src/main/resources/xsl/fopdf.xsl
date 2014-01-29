@@ -73,11 +73,11 @@
     <xsl:param name="line-height">1.4</xsl:param>
 
   <!-- Chinese font related settings -->  
-  <xsl:param name="body.font.family">'serif','SimSun'</xsl:param>
+  <xsl:param name="body.font.family">'serif','WenQuanYi Micro Hei'</xsl:param>
 	<xsl:param name="body.font.master" select="'11'" />
 	<xsl:param name="body.font.small" select="'8'" />
-  <xsl:param name="title.font.family">'SimSun'</xsl:param>
-  <xsl:param name="monospace.font.family">'monospace','SimSun'</xsl:param>
+  <xsl:param name="title.font.family">'WenQuanYi Micro Hei'</xsl:param>
+  <xsl:param name="monospace.font.family">'monospace','WenQuanYi Micro Hei'</xsl:param>
 	<xsl:param name="dingbat.font.family" select="''" />
 	<xsl:param name="symbol.font.family" select="''" />
 
